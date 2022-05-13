@@ -60,9 +60,6 @@
 
 .ex-8-img:hover{
     filter: grayscale(1);
-}
-
-.ex-8-img:hover{
     border-radius: 5%;
 }
 
@@ -72,13 +69,7 @@
 
 .ex-9-img:hover{
     filter: grayscale(1);
-}
-
-.ex-9-img:hover{
     border-radius: 5%;
-}
-
-.ex-9-img:hover{
     transform: scale(1.5);
 }
 
@@ -117,3 +108,108 @@
     
 }
 
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: btn-top;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes btn-top{
+    0%{
+        left: 20%;
+    }
+
+    50%{
+        left: 60%;
+    }
+
+    100%{
+        left: 20%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: btn-bottom;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes btn-bottom{
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: 60%;
+    }
+
+    100%{
+        right: 20%;
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: btn2-top;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes btn2-top{
+    0%{
+        left: 20%;
+        bottom: 20%;
+    }
+
+    25%{
+        left: 20%;
+        
+    }
+
+    50%{
+        left: 20%;
+        bottom: 20%;
+       }
+
+    75%{
+        left: 20%;
+        
+    }   
+
+    100%{
+        left: 20%;
+        bottom: 20%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation-name: btn2-bottom;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes btn2-bottom{
+    0%{
+        right: 20%;
+        top: 20%
+    }
+
+    25%{
+        right: 20%;
+        
+    }
+
+    50%{
+        right: 20%;
+        top: 20%
+      }
+
+      75%{
+        right: 20%;
+        
+      }
+
+    100%{
+        right: 20%;
+        top: 20%;
+    }
+}
